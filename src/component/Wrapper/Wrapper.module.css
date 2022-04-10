@@ -1,0 +1,63 @@
+.block {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 750px;
+    top: 20px;
+    background: #313539;
+    border-radius: 90px;
+    transform: rotate(-23.74deg);
+}
+
+.chair {
+    z-index: -1;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.context {
+    margin: 25px;
+}
+
+.info {
+    text-align: right;
+    margin-right: 45px;
+}
+
+.inputs {
+    width: 478px;
+    height: 72px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    opacity: 0.4;
+}
+
+.login {
+    position: absolute;
+    width: 237px;
+    height: 56px;
+    right: 81px;
+    top: 572px;
+
+    background: #FF9E0C;
+    border-radius: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #FFFFFF;
+    border: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+
+}
