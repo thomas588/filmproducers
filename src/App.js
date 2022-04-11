@@ -4,7 +4,6 @@ import Header from "./component/Header/Header";
 // import TopForms from './component/TopForms/TopForms';
 import Home from './component/Home/Home'
 import Login from './component/Auth/Login/Login';
-import Auth from './component/Auth/Auth'
 
 function App() {
   return (
@@ -14,11 +13,12 @@ function App() {
 
 
         <Router>
+          <header>
           <Routes>
             <Route path='/home' element={<Home />}/>
             <Route path='/login' element={<Login />}/>
-            <Route path='/auth' element={<Auth />}/>
           </Routes>
+          </header>
         </Router>
     </div>
   );
