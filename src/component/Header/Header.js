@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./Header.module.css";
 import Wrapper from "../Wrapper/Wrapper";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -12,9 +13,9 @@ function Header() {
           </p>
           <ul className={s.navigation}>
             <li>
-              <a href="#s">Главная</a>
+              <Link to="/home">Главная</Link>
             </li>
-            <li>
+            {/* <li>
               <a href="#s">Анкета</a>
             </li>
             <li>
@@ -22,9 +23,11 @@ function Header() {
             </li>
             <li>
               <a href="#s">Контакты</a>
-            </li>
+            </li> */}
           </ul>
-          <button className={s.login}>Войти</button>
+          <button className={s.login}>
+            <Link to="/login">Войти</Link>
+          </button>
         </nav>
       </header>
       <Wrapper />

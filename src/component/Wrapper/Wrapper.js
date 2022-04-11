@@ -23,7 +23,7 @@ function Wrapper() {
           зарождения идие до <br />
           премьерного показа
         </p>
-        <form>
+        <form className={s.forms}>
           <input
             className={s.inputs}
             type={"search"}

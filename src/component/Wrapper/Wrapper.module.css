@@ -20,28 +20,29 @@
 }
 
 .context {
-    margin: 25px;
+    position: absolute;
+    right: 45px;
 }
 
 .info {
     text-align: right;
     margin-right: 45px;
+    color: rgba(255, 255, 255, 0.671);
 }
 
 .inputs {
     width: 478px;
     height: 72px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
+    color: gray;
     border-radius: 20px;
-    opacity: 0.4;
+    border: none;
 }
 
 .login {
-    position: absolute;
+    margin-top: 15px;
     width: 237px;
     height: 56px;
-    right: 81px;
-    top: 572px;
 
     background: #FF9E0C;
     border-radius: 12px;
@@ -54,10 +55,15 @@
     text-align: center;
 
     color: #FFFFFF;
-    border: none;
-    flex: none;
-    order: 0;
+    /* flex: none;
     flex-grow: 0;
-    margin: 0px 10px;
-
+    margin: 0px 10px; */
+}
+.forms {
+    position: absolute;
+    right: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 15px;
 }
