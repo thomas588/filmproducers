@@ -11,7 +11,9 @@ function App() {
     <Router>
     <div className="App">
         {/* <Header /> */}
+        {/* <Wrapper /> */}
         {/* <TopForms /> */}
+        <Home />
 
 
           <header>
