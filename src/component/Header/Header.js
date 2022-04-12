@@ -13,17 +13,17 @@ function Header() {
           </p>
           <ul className={s.navigation}>
             <li>
-              <Link to="/home">Главная</Link>
-            </li>
-            {/* <li>
-              <a href="#s">Анкета</a>
+              <Link to="/">Главная</Link>
             </li>
             <li>
-              <a href="#s">Команда</a>
+              <Link to="#s">Анкета</Link>
             </li>
             <li>
-              <a href="#s">Контакты</a>
-            </li> */}
+              <Link to="#s">Команда</Link>
+            </li>
+            <li>
+              <Link to="#s">Контакты</Link>
+            </li>
           </ul>
           <button className={s.login}>
             <Link to="/login">Войти</Link>
