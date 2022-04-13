@@ -1,2 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 footer {
+    background-color: rgba(49, 53, 57, 1);
+    height: 300px;
+}
+
+.logo {
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+span {
+    color: #FF9E0C;
+}
+
+.footer_cols {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.footer_column>li {
+    margin-top: 5px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.719);
+    font-weight: 200;
+}
+
+b {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+}
+
+form {
+    background-color: #2B2F33;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;   
+}
+
+form > input {
+    height: 36px;
+    width: 290px;
+    padding: 10px;
+    background-color: #2B2F33;
+    border-radius: 8px;
+    border: none;
+}
+form > button {
+    width: 170px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.bottom_row {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.719);
+}
+.bottom_row > hr {
+    width: 350px;
+}
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.678);
+}
+a > svg {
+    margin: 15px;
+    height: 20px;
+    width: 20px;
 }
